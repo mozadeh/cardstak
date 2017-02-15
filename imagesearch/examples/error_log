@@ -1,0 +1,24 @@
+[30-May-2015 07:20:42 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyC2nugqaJqf9flLY0xUxMsQ2IkcwKh_gog: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/cardslju/public_html/cards/imagesearch/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/cardslju/public_html/cards/imagesearch/src/Google/Client.php(590): Googl in /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php on line 110
+[30-May-2015 07:48:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 70
+[30-May-2015 07:49:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/customsearch/v1?q=Mohammad+Hossein+Ghasemzadeh&imgType=photo&imgColorType=color&imgSize=large&searchType=image&num=5&safe=medium&rights=%28cc_publicdomain%7Ccc_attribute%7Ccc_sharealike%29&filter=1&key=AIzaSyC2nugqaJqf9flLY0xUxMsQ2IkcwKh_gog: (412) Need to provide a Custom Search Engine ID. Missing cx or cref parameter.' in /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/cardslju/public_html/cards/imagesearch/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/cardsl in /home/cardslju/public_html/cards/imagesearch/src/Google/Http/REST.php on line 110
+[30-May-2015 07:51:11 Etc/GMT] PHP Fatal error:  Call to a member function listVolumes() on a non-object in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 95
+[30-May-2015 07:56:59 Etc/GMT] PHP Fatal error:  Call to a member function listVolumes() on a non-object in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 95
+[30-May-2015 07:58:12 Etc/GMT] PHP Warning:  implode(): Invalid arguments passed in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 87
+[30-May-2015 07:58:35 Etc/GMT] PHP Warning:  implode(): Invalid arguments passed in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 87
+[30-May-2015 07:58:53 Etc/GMT] PHP Warning:  implode(): Argument must be an array in /home/cardslju/public_html/cards/imagesearch/examples/simple-query.php on line 87
+[03-Jun-2015 09:02:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE) in /home/cardslju/public_html/imagesearch/examples/simple-query.php on line 89
+[03-Jun-2015 09:02:57 Etc/GMT] PHP Fatal error:  Call to undefined function vardump() in /home/cardslju/public_html/imagesearch/examples/simple-query.php on line 89
+[03-Jun-2015 09:03:07 Etc/GMT] PHP Fatal error:  Call to undefined function varDump() in /home/cardslju/public_html/imagesearch/examples/simple-query.php on line 89
+[03-Jun-2015 09:04:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'empty' (T_EMPTY), expecting '(' in /home/cardslju/public_html/imagesearch/examples/simple-query.php on line 87

@@ -1,0 +1,287 @@
+a, img {
+    border:none;
+    outline:none
+}
+
+.imageupload {
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 14pt;
+    padding-bottom:5px;
+}
+
+
+input[type=button] {
+    font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 15px 6px 15px;
+  margin-left:10px;
+  margin-top:5px;
+  display: inline-block;
+  float: center;
+  text-decoration: none;
+  width: 120px; height: auto; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+    border:none;
+  background-color: #0073b1; 
+  -webkit-box-shadow: 0 3px rgba(58,87,175,2); 
+  -moz-box-shadow: 0 3px rgba(58,87,175,2); 
+  box-shadow: 0 3px rgba(58,87,175,2);
+  transition: all 0.1s linear 0s; 
+  -webkit-transition: all 0.1s linear 0s;
+  -moz-transition: all 0.1s linear 0s;
+  -o-transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+  cursor:pointer;
+}
+
+input[type=button]:hover {
+  top: 3px;
+  background-color:#2e458b;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none; 
+  box-shadow: none;
+  
+}
+
+input[type="radio"]{
+    vertical-align: baseline;
+}
+
+.inputstyle {
+  padding-top:5px;	
+  font-size: 14pt;
+  font-family:'Pathway Gothic One', sans-serif;
+  text-decoration: none;
+  color:#4c4c4c;
+}
+
+
+.inputform{
+	width:230px;
+	border:1px solid #B1B1B1;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:4px;
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	resize: none;
+}
+
+
+.tablestyle{
+    border-spacing:0px; 
+    margin-top:7%;
+    width: 452px;
+    -moz-box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 8px 0px rgba(0, 0, 0, 0.3);
+    -moz-border-radius:12px;
+    padding:10px 30px 10px 30px;
+    border-radius:12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    background:rgba(255, 255, 255, 0.67);
+}
+
+div.ui-datepicker{
+ font-size:10pt;
+}
+
+.imagebutton {
+    position: relative;
+	overflow: hidden;
+    float: right;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+
+
+.pagetitle {
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 24pt;
+    padding-top:20px;
+    padding-bottom:10px;
+    color:#555555;
+}
+.eventtitle {
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 20pt;
+    padding-top:15px;
+    padding-bottom:30px;
+    color:#164165;
+    
+}
+.submitsection {
+    border-radius:12px;
+    border-radius:12px;
+    -moz-border-radius:12px;
+    font-family:'Pathway Gothic One', sans-serif;
+    font-size: 16pt;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:#cecece;
+    width:auto;
+}
+label {
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+body {
+    background-image: url("http://cardstak.com/cards/images/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width:600px;
+}
+.block {
+    width: 350px;
+    -moz-box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 4px 0px rgba(0, 0, 0, 0.3);
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+.bio {
+   display:block;
+   max-height:150px;
+}
+.topcard {
+    width:350px;
+    background-color:white;
+    -moz-border-radius-topleft:12px;
+    -webkit-border-radius-topleft:12px;
+    border-top-left-radius:12px;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    border-spacing:0px;
+}
+.bottomcard {
+    -moz-border-radius-bottomleft:12px;
+    -webkit-border-radius-bottomleft:12px;
+    border-bottom-left-radius:12px;
+    -moz-border-radius-bottomright:12px;
+    -webkit-border-radius-bottomright:12px;
+    border-bottom-right-radius:12px;
+    width:350px;
+    background-color:#f1f1f1;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border-top:5px solid #8F1FB3;*/
+    border-top:5px solid #247fbd;
+    border-left:1px solid darkgrey;
+    border-right:1px solid darkgrey;
+    border-bottom:1px solid darkgrey;
+    font-size:110%;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+.picture {
+    background-color:#247fbd;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.circle {
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    width:80px;
+    height:80px;
+}
+.name {
+    -moz-border-radius-topleft:12px;
+    -webkit-border-radius-topleft:12px;
+    border-top-left-radius:12px;
+    background-color:#2a2a2a;
+    color:white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+.cardname {
+    font-size: 170%;
+}
+.cardtitle {
+    font-size: 120%;
+}
+#top-menu {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding:0;
+    margin:0;
+    /*background: linear-gradient(to bottom, #454545 0%, #252525 100%);*/
+    border-bottom: 0px solid #79a09c;
+    background: rgba(37, 37, 37, .75);
+    /*-moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.3);*/
+    z-index: 999999;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid #79a09c;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    
+}
+#tmenu-bottom {
+    border-spacing:0px;
+    margin-top:0px;
+    position: fixed;
+    /*background:rgba(121,160,156,0.7);*/
+    width:100%;
+    margin-top:8px;
+}
+.topbutton {
+    font-size: 2vw;
+    background:rgba(256, 256, 256, 0.7);
+    height:100%;
+    width:auto;
+    padding-left:20px;
+    padding-right:20px;
+    border-left: 2px solid #79a09c;
+    border-right: 2px solid #79a09c;
+    border-bottom: 2px solid #79a09c;
+    font-family:'Pathway Gothic One', sans-serif;
+    color:black;
+    /*border-bottom: 5px solid #79a09c;background:#79a09c;*/
+}
+.menu-center {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.menu-center a {
+    width: 100%;
+    text-decoration:none;
+    color: #fff;
+    font-family:'Pathway Gothic One', sans-serif;
+    text-align:center;
+}
+.menu-clear {
+    clear:both;
+    height:0;
+}

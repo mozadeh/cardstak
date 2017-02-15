@@ -1,0 +1,161 @@
+<style type="text/css">
+.topcard {
+    width:350px;
+    background-color:white;
+    -moz-border-radius-topleft:12px;
+    -webkit-border-radius-topleft:12px;
+    border-top-left-radius:12px;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    border-spacing:0px;
+}
+.bottomcard {
+    -moz-border-radius-bottomleft:12px;
+    -webkit-border-radius-bottomleft:12px;
+    border-bottom-left-radius:12px;
+    -moz-border-radius-bottomright:12px;
+    -webkit-border-radius-bottomright:12px;
+    border-bottom-right-radius:12px;
+    width:350px;
+    background-color:#f1f1f1;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:112%;
+    border-top:5px solid #247fbd;
+    border-left:1px solid darkgrey;
+    border-right:1px solid darkgrey;
+    border-bottom:1px solid darkgrey;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+.circle {
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    width:80px;
+    height:80px;
+}
+.picture {
+    background-color:#247fbd;
+    -moz-border-radius-topright:12px;
+    -webkit-border-radius-topright:12px;
+    border-top-right-radius:12px;
+    padding-left:3px;
+    padding-right:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+.name {
+    -moz-border-radius-topleft:12px;
+    -webkit-border-radius-topleft:12px;
+    border-top-left-radius:12px;
+    background-color:#2a2a2a;
+    color:white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family:'Pathway Gothic One', sans-serif;
+}
+.giveMeEllipsis {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 5; /* number of lines to show */
+   line-height: 20px;        /* fallback */
+   max-height: 100px;       /* fallback */
+}
+</style>
+
+<html>
+
+<head>
+
+<title>Cardstak LinkedIn importer</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+
+<!-- 1. Include the LinkedIn JavaScript API and define a onLoad callback function -->
+  
+<script type="text/javascript" src="https://platform.linkedin.com/in.js">
+  api_key: 75blxe7y46tig1
+  scope: r_fullprofile r_emailaddress 
+  onLoad: onLinkedInLoad
+  authorize: true
+</script>
+</head>
+<script type="text/javascript">
+
+
+  // 2. Runs when the JavaScript framework is loaded
+  function onLinkedInLoad() {
+    IN.Event.on(IN, "auth", onLinkedInAuth);
+  }
+
+  // 2. Runs when the viewer has authenticated
+  function onLinkedInAuth() {
+    var fields = ['id','first-name', 'last-name', 'headline', 'picture-url','summary','email-address','public-profile-url','phone-numbers'];
+    IN.API.Profile("me").fields(fields).result(displayProfiles);
+  }
+
+  // 2. Runs when the Profile() API call returns successfully
+  function displayProfiles(profiles) {
+    member = profiles.values[0];
+    document.getElementById("card").innerHTML = '<table class="topcard ">\
+            <tr>\
+                <td class="name">\
+                    <table style="width:100%;color:white;text-align:left;padding-left:20px">\
+                        <tr>\
+                            <td style="font-size: 170%;">' +  member.firstName + '</td>\
+                        </tr>\
+                        <tr>\
+                            <td style="font-size: 170%;">' + member.lastName + '</td>\
+                        </tr>\
+                    </table>\
+                </td>\
+                <td class="picture" align="center">\
+                    <div style="background-image: url(' + member.pictureUrl + ');" class="circle"></div>\
+                </td>\
+            </tr>\
+        </table>\
+        <table class="bottomcard">\
+            <tr>\
+                <td  style="padding-bottom: 6px;padding-top: 6px"  ><b>' + member.headline + '</b></td>\
+            </tr>\
+            <tr>\
+                <td class="giveMeEllipsis">' + member.summary + '</td>\
+            </tr>\
+            <tr>\
+                <td  align="right">\
+                    <table >\
+                        <tr>\
+                            <td ><a href="' + member.publicProfileUrl + '" target="_blank"><img src="http://smartikymail.com/webservice/cards/linkedinicon.png" alt="image host" height="30" width="30"/></a></td>\
+                            <td><a href="https://mail.google.com/mail/?view=cm&fs=1&to=' + member.emailAddress + '" target="_blank"><img src="http://smartikymail.com/webservice/cards/mailicon.png" alt="image host" height="30" width="30"/></a></td>\
+                        </tr>\
+                    </table>\
+                </td>\
+            </tr>\
+        </table>';
+
+
+  }
+
+
+
+
+</script>
+
+
+<body style="background-color:lightgray">
+
+<!-- 3. Displays a button to let the viewer authenticate -->
+<script type="IN/Login"></script>
+
+<!-- 4. Placeholder for the greeting -->
+<div id="card" style="width:100%;"></div>
+
+
+</body>
+</html>
