@@ -18,11 +18,12 @@ CardStak gives the users control over how they present themselves to strangers, 
 
 Cardstak.com, was used by Berkeley Haas School of Business, School of Engineering and the School of Information 
 
-```http://funginstitute.berkeley.edu/events/4th-annual-master-of-engineering-alumni-happy-hour/``` 
+Sample event: ```http://funginstitute.berkeley.edu/events/4th-annual-master-of-engineering-alumni-happy-hour/``` 
 
-```http://funginstitute.berkeley.edu/newadmit/visit-day/ (scroll to bottom left of page) ```
+Sample event: ```http://funginstitute.berkeley.edu/newadmit/visit-day/ (scroll to bottom left of page) ```
 
-It was also awarded the James Chen Award (the highest award present by UC Berkeley school of Information): ```http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards ```
+It was also awarded the James Chen Award (the highest award present by UC Berkeley school of Information): 
+```http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards ```
 
 
 
