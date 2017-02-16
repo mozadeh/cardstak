@@ -17,6 +17,7 @@ CardStak gives the users control over how they present themselves to strangers, 
 ## Libraries/Tutorials/APIs used
 
 Sweet Alert ```http://t4t5.github.io/sweetalert/```
+AWS EC2 ```http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html```
 Intro.js ```http://introjs.com/```
 Masonry layout ```http://w3bits.com/css-masonry/```
 Bootstrap ```http://getbootstrap.com/```
