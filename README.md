@@ -14,6 +14,17 @@ cards.
 
 CardStak gives the users control over how they present themselves to strangers, while protecting them from unintended consequences of meeting strangers. It gives them the ability to get to know the others and build a relationship, before deciding how to proceed with connecting on a deeper level.
 
+## Libraries/Tutorials/APIs used
+
+Sweet Alert ```http://t4t5.github.io/sweetalert/```
+Intro.js ```http://introjs.com/```
+Masonry layout ```http://w3bits.com/css-masonry/```
+Bootstrap ```http://getbootstrap.com/```
+Mandrill API ```https://mandrillapp.com/api/docs/```
+Google Maps API ```https://developers.google.com/maps/```
+Linkedin API ```https://developer.linkedin.com/docs/signin-with-linkedin#```
+
+
 ## Highlights
 
 Cardstak.com, was used by Berkeley Haas School of Business, School of Engineering and the School of Information 
@@ -22,7 +33,7 @@ Sample event: ```http://funginstitute.berkeley.edu/events/4th-annual-master-of-e
 
 Sample event: ```http://funginstitute.berkeley.edu/newadmit/visit-day/ (scroll to bottom left of page) ```
 
-It was also awarded the James Chen Award (the highest award present by UC Berkeley school of Information): 
+It was also awarded the James Chen Award (the highest award presented by UC Berkeley school of Information): 
 ```http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards ```
 
 
