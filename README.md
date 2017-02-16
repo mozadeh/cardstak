@@ -1,7 +1,7 @@
 
 #CardStak
 
-![alt tag](https://i.imgur.com/aAPFPH3.png)
+![alt tag](https://raw.githubusercontent.com/mozadeh/cardstak/master/new_logo.jpg)
 
 link to webpage: ```http://www.cardstak.com```
 
