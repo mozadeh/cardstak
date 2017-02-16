@@ -14,7 +14,7 @@ cards.
 
 CardStak gives the users control over how they present themselves to strangers, while protecting them from unintended consequences of meeting strangers. It gives them the ability to get to know the others and build a relationship, before deciding how to proceed with connecting on a deeper level.
 
-## Libraries/Tutorials/APIs used
+## Libraries / Tutorials / APIs used
 
 - Sweet Alert ```http://t4t5.github.io/sweetalert/```
 
