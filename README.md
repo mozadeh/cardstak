@@ -3,7 +3,7 @@
 
 ![alt tag](https://raw.githubusercontent.com/mozadeh/cardstak/master/new_logo.jpg)
 
-link to webpage: `http://www.cardstak.com`
+link to webpage: ```http://www.cardstak.com```
 
 ## Description
 
