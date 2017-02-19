@@ -3,7 +3,7 @@
 
 ![alt tag](https://raw.githubusercontent.com/mozadeh/cardstak/master/new_logo.jpg)
 
-link to webpage: ```http://www.cardstak.com```
+link to webpage: [http://www.cardstak.com](http://www.cardstak.com)
 
 ## Description
 
@@ -16,33 +16,33 @@ CardStak gives the users control over how they present themselves to strangers, 
 
 ## Libraries / Tutorials / APIs used
 
-- Sweet Alert ```http://t4t5.github.io/sweetalert/```
+- Sweet Alert [http://t4t5.github.io/sweetalert/](http://t4t5.github.io/sweetalert/)
 
-- AWS EC2 ```http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html```
+- AWS EC2 [http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
 
-- Intro.js ```http://introjs.com/```
+- Intro.js [http://introjs.com/](http://introjs.com/)
 
-- Masonry layout ```http://w3bits.com/css-masonry/```
+- Masonry layout [http://w3bits.com/css-masonry/](http://w3bits.com/css-masonry/)
 
-- Bootstrap ```http://getbootstrap.com/```
+- Bootstrap [http://getbootstrap.com/](http://getbootstrap.com/)
 
-- Mandrill API ```https://mandrillapp.com/api/docs/```
+- Mandrill API [https://mandrillapp.com/api/docs/](https://mandrillapp.com/api/docs/)
 
-- Google Maps API ```https://developers.google.com/maps/```
+- Google Maps API [https://developers.google.com/maps/](https://developers.google.com/maps/)
 
-- Linkedin API ```https://developer.linkedin.com/docs/signin-with-linkedin#```
+- Linkedin API [https://developer.linkedin.com/docs/signin-with-linkedin#](https://developer.linkedin.com/docs/signin-with-linkedin#)
 
 
 ## Highlights
 
 Cardstak.com, was used by Berkeley Haas School of Business, School of Engineering and the School of Information 
 
-Sample event: ```http://funginstitute.berkeley.edu/events/4th-annual-master-of-engineering-alumni-happy-hour/``` 
+Sample event: [http://funginstitute.berkeley.edu/events/4th-annual-master-of-engineering-alumni-happy-hour/](http://funginstitute.berkeley.edu/events/4th-annual-master-of-engineering-alumni-happy-hour/)
 
-Sample event: ```http://funginstitute.berkeley.edu/newadmit/visit-day/ (scroll to bottom left of page) ```
+Sample event: [http://funginstitute.berkeley.edu/newadmit/visit-day/](http://funginstitute.berkeley.edu/newadmit/visit-day/) (scroll to bottom left of page)
 
 It was also awarded the James Chen Award (the highest award presented by UC Berkeley school of Information): 
-```http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards ```
+[http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards](http://www.ischool.berkeley.edu/newsandevents/news/2016commencementawards)
 
 
 ## Concept
